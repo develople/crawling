@@ -1,0 +1,27 @@
+{
+  "name": "crawling",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "crawling-local": "cross-env NODE_ENV=local node ./mysql/crawling_db.js",
+    "crawling-dev": "cross-env NODE_ENV=dev node ./mysql/crawling_db.js",
+    "crawling-prod": "cross-env NODE_ENV=prod node ./mysql/crawling_db.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "cheerio": "^1.0.0-rc.12",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.3.1",
+    "jsonwebtoken": "^9.0.1",
+    "mime-types": "^2.1.35",
+    "mysql": "^2.18.1",
+    "mysql2": "^3.6.0",
+    "uuid": "^9.0.0"
+  },
+  "description": ""
+}
