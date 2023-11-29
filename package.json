@@ -21,6 +21,8 @@
     "mime-types": "^2.1.35",
     "mysql": "^2.18.1",
     "mysql2": "^3.6.0",
+    "puppeteer": "^21.5.2",
+    "puppeteer-core": "^21.5.2",
     "uuid": "^9.0.0"
   },
   "description": ""
